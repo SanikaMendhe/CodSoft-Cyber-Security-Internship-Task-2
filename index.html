@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishGuard | Phishing Awareness</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">🛡</span> PhishGuard
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#learn">Learn</a>
+            <a href="#detect">Detect</a>
+            <a href="#safety">Safety Tips</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="tag">CYBERSECURITY AWARENESS</span>
+
+            <h1>
+                Think Before You <span>Click.</span>
+            </h1>
+
+            <p>
+                Learn how to identify phishing attacks, recognize suspicious
+                messages, and protect your personal information online.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#learn" class="btn primary-btn">
+                    Start Learning
+                </a>
+
+                <a href="#detect" class="btn secondary-btn">
+                    Check a Message
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <h3>01</h3>
+                    <p>Learn</p>
+                </div>
+
+                <div>
+                    <h3>02</h3>
+                    <p>Identify</p>
+                </div>
+
+                <div>
+                    <h3>03</h3>
+                    <p>Protect</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="shield-circle">
+                <div class="shield">🛡️</div>
+            </div>
+
+            <div class="floating-card card-one">
+                <span>🔒</span>
+                <div>
+                    <strong>Stay Secure</strong>
+                    <small>Protect your data</small>
+                </div>
+            </div>
+
+            <div class="floating-card card-two">
+                <span>⚠️</span>
+                <div>
+                    <strong>Think Twice</strong>
+                    <small>Check suspicious links</small>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Introduction -->
+    <section class="section intro-section" id="learn">
+
+        <div class="section-heading">
+            <span class="tag">UNDERSTAND THE THREAT</span>
+            <h2>What is <span>Phishing?</span></h2>
+
+            <p>
+                Phishing is a cyberattack in which attackers pretend to be
+                trusted people or organizations to trick users into revealing
+                sensitive information.
+            </p>
+        </div>
+
+        <div class="info-grid">
+
+            <article class="info-card">
+                <div class="card-icon">📧</div>
+                <h3>Email Phishing</h3>
+
+                <p>
+                    Fake emails that pretend to come from banks, companies,
+                    or other trusted organizations.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">📱</div>
+                <h3>Smishing</h3>
+
+                <p>
+                    Fraudulent SMS messages that may contain suspicious links
+                    or requests for personal information.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">🎣</div>
+                <h3>Spear Phishing</h3>
+
+                <p>
+                    Targeted phishing messages designed for a specific person
+                    or organization.
+                </p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-icon">🌐</div>
+                <h3>Fake Websites</h3>
+
+                <p>
+                    Websites designed to look like genuine login pages to
+                    steal passwords or other sensitive data.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- How Phishing Works -->
+    <section class="section process-section">
+
+        <div class="section-heading">
+            <span class="tag">KNOW THE PROCESS</span>
+            <h2>How Does Phishing <span>Work?</span></h2>
+
+            <p>
+                Understanding the attack process helps you recognize
+                warning signs before becoming a victim.
+            </p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <div class="process-number">01</div>
+                <h3>Fake Message</h3>
+                <p>
+                    An attacker sends a message pretending to be a trusted
+                    person or organization.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">02</div>
+                <h3>Create Urgency</h3>
+                <p>
+                    The message may threaten account suspension or promise
+                    an unexpected reward.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">03</div>
+                <h3>Steal Information</h3>
+                <p>
+                    The victim may be tricked into visiting a fake website
+                    or sharing sensitive information.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Phishing Detection Tool -->
+    <section class="section detector-section" id="detect">
+
+        <div class="section-heading">
+            <span class="tag">INTERACTIVE TOOL</span>
+            <h2>Suspicious Message <span>Checker</span></h2>
+
+            <p>
+                Paste a message below to check for common phishing warning
+                signs. This educational tool checks message text only.
+            </p>
+        </div>
+
+        <div class="detector-box">
+
+            <label for="messageInput">
+                Enter a suspicious email or message
+            </label>
+
+            <textarea
+                id="messageInput"
+                placeholder="Example: Your account will be blocked. Click the link immediately to verify your password..."
+            ></textarea>
+
+            <div class="detector-actions">
+
+                <button class="btn primary-btn" id="checkMessageBtn">
+                    Analyze Message
+                </button>
+
+                <button class="btn clear-btn" id="clearMessageBtn">
+                    Clear
+                </button>
+
+            </div>
+
+            <p class="privacy-note">
+                🔒 This demo analyzes the text entered here in your browser.
+                Do not enter real passwords, OTPs, or private information.
+            </p>
+
+            <div
+                id="analysisResult"
+                class="analysis-result"
+                aria-live="polite"
+                role="status"
+                hidden
+            ></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Warning Signs -->
+    <section class="section warning-section">
+
+        <div class="section-heading">
+            <span class="tag">RED FLAGS</span>
+            <h2>How to Identify a <span>Phishing Message</span></h2>
+        </div>
+
+        <div class="warning-grid">
+
+            <div class="warning-item">
+                <span>⚠️</span>
+                <div>
+                    <h3>Urgent Language</h3>
+                    <p>
+                        Messages demanding immediate action or threatening
+                        account closure.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning-item">
+                <span>🔗</span>
+                <div>
+                    <h3>Suspicious Links</h3>
+                    <p>
+                        Unexpected links or web addresses that imitate
+                        legitimate websites.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning-item">
+                <span>🔑</span>
+                <div>
+                    <h3>Password Requests</h3>
+                    <p>
+                        Unexpected requests for passwords, OTPs, or banking
+                        information.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning-item">
+                <span>🎁</span>
+                <div>
+                    <h3>Unexpected Rewards</h3>
+                    <p>
+                        Messages claiming you won a prize you never entered
+                        to win.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Safety Tips -->
+    <section class="section safety-section" id="safety">
+
+        <div class="section-heading">
+            <span class="tag">PROTECT YOURSELF</span>
+            <h2>Essential Cyber Safety <span>Tips</span></h2>
+
+            <p>
+                Follow these practices to improve your online security.
+            </p>
+        </div>
+
+        <div class="safety-grid">
+
+            <div class="safety-card">
+                <span>🔍</span>
+                <h3>Verify the Sender</h3>
+                <p>
+                    Check the complete sender address and confirm unexpected
+                    requests through a trusted channel.
+                </p>
+            </div>
+
+            <div class="safety-card">
+                <span>🚫</span>
+                <h3>Avoid Unknown Links</h3>
+                <p>
+                    Do not click unexpected links. Visit the official website
+                    by typing its address yourself.
+                </p>
+            </div>
+
+            <div class="safety-card">
+                <span>🔐</span>
+                <h3>Use Strong Passwords</h3>
+                <p>
+                    Use unique passwords for different accounts and enable
+                    multi-factor authentication.
+                </p>
+            </div>
+
+            <div class="safety-card">
+                <span>📢</span>
+                <h3>Report Suspicious Messages</h3>
+                <p>
+                    Report phishing attempts to the relevant service provider
+                    or your organization's security team.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="important-banner">
+            <span class="banner-icon">🛡️</span>
+
+            <div>
+                <h3>Remember: Never Share Your OTP</h3>
+
+                <p>
+                    Do not share your OTP, password, or banking PIN with
+                    anyone who contacts you unexpectedly.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Interactive Quiz -->
+    <section class="section quiz-section" id="quiz">
+
+        <div class="section-heading">
+            <span class="tag">TEST YOUR KNOWLEDGE</span>
+            <h2>Phishing Awareness <span>Quiz</span></h2>
+
+            <p>
+                Answer the questions and check how well you understand
+                phishing and cyber safety.
+            </p>
+        </div>
+
+        <div class="quiz-box">
+
+            <div class="quiz-top">
+                <span id="questionCounter">Question 1 of 5</span>
+
+                <span id="currentScore">
+                    Score: 0
+                </span>
+            </div>
+
+            <div class="progress-track">
+                <div id="progressBar"></div>
+            </div>
+
+            <h3 id="questionText">
+                What should you do if you receive a suspicious email?
+            </h3>
+
+            <div id="optionsContainer" class="options-container"></div>
+
+            <p id="quizFeedback" aria-live="polite" role="status"></p>
+
+            <button
+                class="btn primary-btn quiz-next-btn"
+                id="nextQuestionBtn"
+                disabled
+            >
+                Next Question →
+            </button>
+
+            <div id="quizFinalResult" hidden></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">
+            🛡 PhishGuard
+        </a>
+
+        <p>
+            Building awareness. Preventing phishing. Promoting cyber safety.
+        </p>
+
+        <p class="footer-small">
+            Educational project developed for the CodSoft Cyber Security
+            Internship.
+        </p>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> PhishGuard. Educational use only.
+        </p>
+
+    </footer>
+
+</body>
+</html>

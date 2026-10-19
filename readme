@@ -1,0 +1,123 @@
+# 🛡️ PhishGuard - Phishing Awareness Program
+
+## 📌 Project Overview
+
+PhishGuard is a cybersecurity awareness website designed to
+educate users about phishing attacks and online scams.
+
+It helps users understand common phishing techniques, identify
+suspicious messages, and learn essential online safety practices.
+
+This project was developed as an educational project for the
+CodSoft Cyber Security Internship.
+
+## 🎯 Objectives
+
+- Educate users about phishing attacks.
+- Explain common types of phishing.
+- Identify common warning signs in suspicious messages.
+- Promote safe online browsing habits.
+- Test users' cybersecurity knowledge through an interactive quiz.
+
+## ✨ Features
+
+### 1. Educational Dashboard
+Introduces phishing and explains its importance.
+
+### 2. Types of Phishing
+Explains email phishing, smishing, spear phishing, and fake websites.
+
+### 3. Suspicious Message Checker
+Checks message text for selected phishing warning signs.
+
+### 4. Cyber Safety Tips
+Provides practical recommendations for safer online behavior.
+
+### 5. Interactive Quiz
+Contains five multiple-choice questions with immediate feedback
+and a final score.
+
+### 6. Responsive Design
+Uses CSS media queries to support different screen sizes.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 📁 Project Structure
+
+```text
+Task2_Phishing_Awareness/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 🚀 How to Run the Project
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Open `index.html` in a modern web browser.
+4. Navigate through the website sections.
+5. Enter sample text in the message checker.
+6. Complete the phishing awareness quiz.
+
+No backend or database is required.
+
+## 🔍 How the Message Checker Works
+
+The message checker compares the entered text with predefined
+JavaScript patterns for selected warning signs.
+
+Examples include:
+
+- Urgent or threatening language.
+- Requests for passwords or OTPs.
+- Unexpected prize claims.
+- Suspicious link-related language.
+- Financial pressure.
+
+The checker provides educational feedback based on the patterns
+it detects.
+
+It does not verify sender identity, visit URLs, or determine
+whether a website is malicious.
+
+A message without detected warning signs is not necessarily safe.
+
+## 🔐 Security and Privacy
+
+- The demo does not send entered message text to a server.
+- Users should never enter real passwords, OTPs, or banking details.
+- The checker is an educational demonstration, not a production
+  security product.
+- Users should independently verify suspicious communications.
+
+## 📚 Learning Outcomes
+
+Through this project, I practiced:
+
+- Structuring web pages with HTML.
+- Designing responsive interfaces with CSS.
+- Implementing interactive features with JavaScript.
+- Working with DOM elements and event listeners.
+- Using pattern matching to identify selected warning signs.
+- Creating a cybersecurity awareness resource.
+
+## ⚠️ Disclaimer
+
+This project is intended for educational and awareness purposes only.
+It does not guarantee detection of phishing attacks and should not
+replace professional security tools or independent verification.
+
+## 👩‍💻 Internship
+
+CodSoft Cyber Security Internship
+
+## 📄 License
+
+This project is created for educational purposes.
